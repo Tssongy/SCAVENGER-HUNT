@@ -1,0 +1,29 @@
+.header-nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.header-nav li {
+    padding: 0 0.5em;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+.material-icons.add-treasure {
+    color: rgb(7, 92, 49);
+}
+
+.material-icons.edit-treasure {
+    color: rgb(165, 111, 12);
+}
+
+/* iPad portrait or bigger */
+@media only screen and (min-width: 768px){
+    .header-nav ul {
+        justify-content: flex-start;
+    }
+}
